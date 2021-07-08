@@ -1,0 +1,43 @@
+body{
+    background-color: black !important;
+    
+}
+#nav{
+    background-color: chartreuse;
+}
+
+.navbar-brand h1{
+    color:black;
+    font-family: 'Squada One', cursive;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px ;
+}
+.heading{
+    text-align: center;
+    color: tomato;
+}
+@media (min-width:1200px)
+{
+    .jumbotron{
+        
+        border: 2px solid black;
+        height: 400px;
+        box-shadow: 0px 0px 50px yellow;
+    }
+
+
+}
+@media (min-width:992px) and ( max-width:1199px) {
+    .jumbotron{
+
+      border: 2px solid black;
+      height: 677px;
+      box-shadow: 0px 0px 50px gold;
+  }
+
+
+}
